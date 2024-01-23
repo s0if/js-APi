@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin-bottom: 1rem;
+}
+
+.arr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.hero{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 2rem) / 4);
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+img {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
